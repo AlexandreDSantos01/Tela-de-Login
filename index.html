@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Tela de Login</title>
+  <link rel="stylesheet" href="style.css"> <!-- Conecta o CSS -->
+</head>
+<body>
+
+  <div class="meu-container">
+    <!-- Lado esquerdo com a mensagem e as informações de exemplo -->
+    <div class="lado-esquerdo">
+      <h1>Bem-vindo!</h1>
+      <div class="informacoes">
+        <p>Login: login</p>
+        <p>Password: 1234</p>
+      </div>
+    </div>
+    
+    <!-- Lado direito com o formulário de login e senha -->
+    <div class="lado-direito">
+      <p>Digite seu login para acessar o sistema:</p>
+      <input type="text" id="login" placeholder="Login">
+      <input type="password" id="senha" placeholder="Senha">
+      <button onclick="validarLogin()">Entrar</button>
+    </div>
+  </div>
+  
+  <script src="script.js"></script> <!-- Conecta o JavaScript -->
+  
+</body>
+</html>

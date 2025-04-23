@@ -1,0 +1,95 @@
+/* Adicionando o Google Font "Roboto" */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle, #004aad, #5ce1e6); /* Degradê */
+  font-family: 'Roboto', sans-serif; /* Usando a fonte Roboto */
+}
+
+.meu-container {
+  display: flex;
+  width: 600px;
+  height: 350px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.lado-esquerdo {
+  background-color: #6281a3; /* Novo azul suave */
+  width: 60%; /* 60% de largura */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centraliza o conteúdo verticalmente */
+  align-items: center; /* Centraliza o conteúdo horizontalmente */
+  border-top-left-radius: 10px; /* Arredondar a parte superior esquerda */
+  border-bottom-left-radius: 10px; /* Arredondar a parte inferior esquerda */
+  padding: 20px;
+}
+
+.lado-esquerdo h1 {
+  font-size: 36px; /* Tamanho da fonte do título */
+  text-align: center;
+  margin-bottom: 20px;
+  color: white; /* Mudando a cor do texto para branco para contrastar com o azul */
+}
+
+.informacoes {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.informacoes p {
+  margin: 5px 0;
+  font-size: 16px; /* Diminuir a fonte de Login e Password */
+  font-weight: 400;
+  color: white; /* Mudando a cor do texto para branco */
+}
+
+.lado-direito {
+  width: 40%; /* 40% de largura */
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 10px; /* Arredondar a parte superior direita */
+  border-bottom-right-radius: 10px; /* Arredondar a parte inferior direita */
+}
+
+.lado-direito p {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.lado-direito input {
+  margin: 10px 0;
+  padding: 8px;
+  width: 80%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.lado-direito button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #3064a8;
+  color: white;
+  cursor: pointer;
+}
+
+.lado-direito button:hover {
+  background-color: #5ce1e6;
+}
